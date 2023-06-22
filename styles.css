@@ -68,7 +68,7 @@ body {
   color: rgb(190, 189, 189);
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (width >= 300px) and (width <= 767px) {
   body {
     padding-top: 10px;
   }
